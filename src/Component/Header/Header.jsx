@@ -4,12 +4,7 @@ import "./Header.css";
 import "../Mains/Responsive/ResponHeader.css";
 import logo from "../Util/logo.png";
 
-
 const Header = () => {
-
-
-
-
   return (
     <>
       <Container>
@@ -19,7 +14,9 @@ const Header = () => {
               <img className="img-logo" src={logo} alt="" />
             </div>
             <div className="btn-masuk">
-              <button className="btn-logo">Loker</button>
+              <a href="https://arsatteguh.github.io/movies/">
+                <button className="btn-logo">Movies</button>
+              </a>
             </div>
           </div>
         </div>
