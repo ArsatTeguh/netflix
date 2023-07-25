@@ -8,9 +8,9 @@ import {  HashRouter } from "react-router-dom";
 function App() {
   return (
     <>
-    <HashRouter>
+ 
       <HalamanHome />
-    </HashRouter>
+   
     </>
   );
 }
