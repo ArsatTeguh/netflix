@@ -14,7 +14,7 @@ const Header = () => {
               <img className="img-logo" src={logo} alt="" />
             </div>
             <div className="btn-masuk">
-              <a href="https://arsatteguh.github.io/movies/">
+              <a href="https://movies-chi-ten.vercel.app/">
                 <button className="btn-logo">Movies</button>
               </a>
             </div>
